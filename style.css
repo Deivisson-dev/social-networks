@@ -4,6 +4,23 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #17161d
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(225deg, rgb(27, 105, 210) 0%, rgba(7, 52, 111, 0) 100%);
+    border-radius: 8px;
+}
+
 body{
     width: 100%;
     min-height: 100vh;
@@ -57,6 +74,15 @@ h5{
     margin-bottom: 10px;
 }
 
+#port{
+    height: 20px;
+    width: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 main{
     display: flex;
     justify-content: center;
@@ -81,7 +107,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
     width: 700px;
     height: 90px;
     color: white;
@@ -93,7 +119,20 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
+    width: 700px;
+    height: 90px;
+    color: white;
+    border-radius: 4px;
+    margin-top: 20px;
+    background: linear-gradient(225deg, rgb(27, 105, 210) 0%, rgba(7, 52, 111, 0) 100%);
+}
+
+.animate__animated{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
     width: 700px;
     height: 90px;
     color: white;
@@ -120,9 +159,11 @@ main{
     align-items: center;
 }
 
+
 h4{
     font-size: 17px;
     font-weight: 400;
+    text-align: center;
 }
 
 .local{
@@ -136,7 +177,7 @@ h4{
     width: 30px;
 }
 
-.animate__animated:hover, .animate__animated:hover, .animate__animated:hover{
+.animate__animated:hover, .animate__animated:hover, .animate__animated:hover .animate__animated:hover{
     border: 1px solid white;
 }
 
@@ -144,6 +185,12 @@ a{
     text-decoration: none;
 }
 
+
+footer{
+    padding-top: 20px;
+    font-weight: lighter;
+    font-size: 18px;
+}
 
 @media screen and (max-width: 768px) {
     .animate__animated{
@@ -163,7 +210,7 @@ a{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 15px;
+        gap: 5px;
         width: 300px;
         height: 80px;
         color: white;
@@ -176,7 +223,20 @@ a{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 15px;
+        gap: 5px;
+        width: 300px;
+        height: 80px;
+        color: white;
+        border-radius: 4px;
+        margin-top: 20px;
+        background: linear-gradient(225deg, rgb(27, 105, 210) 0%, rgba(7, 52, 111, 0) 100%);
+    }
+
+    .animate__animated{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
         width: 300px;
         height: 80px;
         color: white;
@@ -187,5 +247,9 @@ a{
 
     .ufal{
         font-size: 18px;
+    }
+
+    footer{
+        font-size: 15px;
     }
 }
