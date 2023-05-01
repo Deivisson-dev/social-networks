@@ -17,7 +17,7 @@ html{
 }
 
 ::-webkit-scrollbar-thumb{
-    background: linear-gradient(225deg, rgb(27, 105, 210) 0%, rgba(7, 52, 111, 0) 100%);
+    background-color: #ff3a5e;
     border-radius: 8px;
 }
 
@@ -32,7 +32,7 @@ body{
     align-items: center;
     color: rgb(255, 255, 255);
     font-family: Rubik, sans-serif;
-    background: linear-gradient(to top, rgb(6, 9, 15), rgb(15, 20, 31));
+    background-color: #040405;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -53,6 +53,9 @@ h5{
     font-weight: lighter;
 }
 
+.deco{
+    color: #ff3a5e;
+}
 .div-header{
     text-align: center;
     padding-top: 20px;
@@ -74,6 +77,8 @@ h5{
     margin-bottom: 10px;
 }
 
+
+
 #port{
     height: 20px;
     width: 5em;
@@ -91,54 +96,54 @@ main{
     padding: 20px;
 }
 
-.animate__animated{
+#insta{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    width: 700px;
+    width: 600px;
     height: 90px;
     color: white;
     border-radius: 4px;
     margin-top: 20px;
-    background: linear-gradient(225deg, rgb(27, 105, 210) 0%, rgba(7, 52, 111, 0) 100%);
+    background: linear-gradient( 45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100% );
 }
-.animate__animated{
+#git{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    width: 700px;
+    width: 600px;
     height: 90px;
     color: white;
     border-radius: 4px;
     margin-top: 20px;
-    background: linear-gradient(225deg, rgb(27, 105, 210) 0%, rgba(7, 52, 111, 0) 100%);
+    background: linear-gradient(58deg, #1f9b95 8%, #3983b4 98%);
 }
-.animate__animated{
+#lins{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
-    width: 700px;
+    width: 600px;
     height: 90px;
     color: white;
     border-radius: 4px;
     margin-top: 20px;
-    background: linear-gradient(225deg, rgb(27, 105, 210) 0%, rgba(7, 52, 111, 0) 100%);
+    background: #0060c0;
 }
 
-.animate__animated{
+#porf{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 55px;
-    width: 700px;
+    gap: 5px;
+    width: 600px;
     height: 90px;
     color: white;
     border-radius: 4px;
     margin-top: 20px;
-    background: linear-gradient(225deg, rgb(27, 105, 210) 0%, rgba(7, 52, 111, 0) 100%);
+    background: linear-gradient(70deg, #923dff 13%, #ac76ff 95%);
 }
 
 .insta{
@@ -177,10 +182,6 @@ h4{
     width: 30px;
 }
 
-.animate__animated:hover, .animate__animated:hover, .animate__animated:hover .animate__animated:hover{
-    border: 1px solid white;
-}
-
 a{
     text-decoration: none;
 }
@@ -193,7 +194,7 @@ footer{
 }
 
 @media screen and (max-width: 768px) {
-    .animate__animated{
+    #insta{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -203,10 +204,10 @@ footer{
         color: white;
         border-radius: 4px;
         margin-top: 20px;
-        background: linear-gradient(225deg, rgb(27, 105, 210) 0%, rgba(7, 52, 111, 0) 100%);
+        background: linear-gradient( 45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100% );
     }
 
-    .animate__animated{
+    #git{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -216,10 +217,10 @@ footer{
         color: white;
         border-radius: 4px;
         margin-top: 20px;
-        background: linear-gradient(225deg, rgb(27, 105, 210) 0%, rgba(7, 52, 111, 0) 100%);
+        background: linear-gradient(58deg, #1f9b95 8%, #3983b4 98%);
     }
 
-    .animate__animated{
+    #lins{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -229,10 +230,10 @@ footer{
         color: white;
         border-radius: 4px;
         margin-top: 20px;
-        background: linear-gradient(225deg, rgb(27, 105, 210) 0%, rgba(7, 52, 111, 0) 100%);
+        background: #0060c0;
     }
 
-    .animate__animated{
+    #porf{
         display: flex;
         justify-content: center;
         align-items: center;
@@ -242,7 +243,7 @@ footer{
         color: white;
         border-radius: 4px;
         margin-top: 20px;
-        background: linear-gradient(225deg, rgb(27, 105, 210) 0%, rgba(7, 52, 111, 0) 100%);
+        background: linear-gradient(70deg, #923dff 13%, #ac76ff 95%);
     }
 
     .ufal{
